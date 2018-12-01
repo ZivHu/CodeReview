@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
+
 import xinge_push
 import json
 
 from xinge_push import Message, constant, Style, ClickAction, TimeInterval, MessageIOS
 from xinge_push import XingeApp
+
+# 信鸽推送demo
 
 # 推送单个安卓设备
 xinge_push.PushTokenAndroid('accessId', 'secretKey', 'title', 'content', 'token')
